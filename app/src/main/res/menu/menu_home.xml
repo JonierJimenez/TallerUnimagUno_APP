@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuGeometria"
+        android:title="GEOMETRIA" />
+    <item
+        android:id="@+id/mnuQuimica"
+        android:title="QUIMICA">
+        <menu>
+            <item
+                android:id="@+id/mnuOrganica"
+                android:title="ORGANICA" />
+            <item
+                android:id="@+id/mnuInorganica"
+                android:title="INORGANICA" />
+        </menu>
+    </item>
+</menu>
