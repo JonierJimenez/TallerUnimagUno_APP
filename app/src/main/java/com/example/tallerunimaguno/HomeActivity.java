@@ -46,7 +46,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnMatematicas:
-                Toast.makeText(getApplicationContext(),"cacua marica",Toast.LENGTH_LONG).show();
+
                 Intent i = new Intent(getApplicationContext(),MatematicasActivity.class);
                 startActivity(i);
                 break;

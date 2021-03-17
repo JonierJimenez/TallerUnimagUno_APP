@@ -55,6 +55,9 @@ public class MatematicasActivity extends AppCompatActivity implements View.OnCli
                         case R.id.rbtPotencia:
                             Toast.makeText(getApplicationContext(),"La potencia es"+ Math.pow(num1,num2),Toast.LENGTH_LONG).show();
                             break;
+
+                        case R.id.rbtDivi: Toast.makeText(getApplicationContext(),"la division es "+ (num1/num2),Toast.LENGTH_LONG).show();
+                            break;
                     }//switch
                 }else{
                     Toast.makeText(getApplicationContext(),"no valido",Toast.LENGTH_LONG).show();
