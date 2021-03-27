@@ -34,9 +34,18 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        Intent i;
         switch (item.getItemId()){
             case R.id.mnuGeometria:
-                Toast.makeText(getApplicationContext(),"menu geometria", Toast.LENGTH_LONG).show();
+                i = new Intent(getApplicationContext(),GeometriaActivity.class);
+                startActivity(i);
+                break;
+
+            case R.id.mnuPaises:
+                i = new Intent(getApplicationContext(),PaisesActivity.class);
+                i.putExtra("name","jhonier");
+                i.putExtra("doc","1334");
+                startActivity(i);
                 break;
         }
         return super.onOptionsItemSelected(item);

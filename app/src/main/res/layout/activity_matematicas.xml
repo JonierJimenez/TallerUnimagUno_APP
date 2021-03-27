@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:ems="10"
-            android:inputType="number|text|numberDecimal" />
+            android:inputType="number|numberDecimal" />
 
         <TextView
             android:id="@+id/textView2"
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:ems="10"
-            android:inputType="number|text|numberDecimal" />
+            android:inputType="number|numberDecimal" />
     </LinearLayout>
 
     <LinearLayout

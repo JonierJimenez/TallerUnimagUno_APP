@@ -2,6 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/mnuPaises"
+        android:title="PAISES" />
+    <item
         android:id="@+id/mnuGeometria"
         android:title="GEOMETRIA" />
     <item

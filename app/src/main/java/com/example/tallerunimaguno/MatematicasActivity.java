@@ -37,7 +37,6 @@ public class MatematicasActivity extends AppCompatActivity implements View.OnCli
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnCalcular:
-
                 if(validar()){
                     Toast.makeText(getApplicationContext(),"dentro",Toast.LENGTH_LONG).show();
                     float num1 = Float.parseFloat(n1.getText().toString());
@@ -76,12 +75,13 @@ public class MatematicasActivity extends AppCompatActivity implements View.OnCli
 //|| TextUtils.isDigitsOnly(n1.getText().toString())
     public boolean validar(){
        if(TextUtils.isEmpty(n1.getText().toString())){
-            Toast.makeText(getApplicationContext(),"dentro del if de validar",Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"INGRESE NUMERO",Toast.LENGTH_LONG).show();
             return  false;
         }
         else {
 //|| TextUtils.isDigitsOnly(n2.getText().toString())
             if (TextUtils.isEmpty(n2.getText().toString()) ){
+                Toast.makeText(getApplicationContext(),"INGRESE NUMERO",Toast.LENGTH_LONG).show();
                 return false;
             } else{
                 return true;

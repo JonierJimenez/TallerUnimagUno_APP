@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TallerUnimagUno">
-        <activity android:name=".MatematicasActivity"></activity>
+        <activity android:name=".GeometriaActivity"></activity>
+        <activity android:name=".PaisesActivity" />
+        <activity android:name=".MatematicasActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

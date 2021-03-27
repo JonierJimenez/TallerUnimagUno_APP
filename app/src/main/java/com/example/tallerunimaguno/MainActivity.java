@@ -3,6 +3,7 @@ package com.example.tallerunimaguno;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //activamos el escuchador de evento
         ingresar.setOnClickListener(this);
         cancelar.setOnClickListener(this);
+
 
     }
 
